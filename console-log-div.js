@@ -72,6 +72,9 @@
   }
 
   console.log = logWithCopy;
+  console.info = logWithCopy;
+  console.trace = logWithCopy;
+  console.debug = logWithCopy;
   console.log.toDiv = true;
 
   console.error = function errorWithCopy() {
